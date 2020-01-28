@@ -101,7 +101,7 @@ void wifi_scan()
     tft.setTextDatum(MC_DATUM);
     tft.setTextSize(1);
 
-    tft.drawString("Scan Networkr", tft.width() / 2, tft.height() / 2);
+    tft.drawString("Scan Networkrrrrr", tft.width() / 2, tft.height() / 2);
 
     WiFi.mode(WIFI_STA);
     WiFi.disconnect();
